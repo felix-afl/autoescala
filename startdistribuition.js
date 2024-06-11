@@ -16,7 +16,7 @@ function startShift() {
   for (let i = 0; i < monthDays; i++) {
     let actualDay = [];
     month[i];
-      if (true) {
+    
       for (let u = 0; u < month[i].length; u++) {
         let reqLevel = month[i][u].reqLevel;
         let shiftTagSep = month[i][u].shift;
@@ -35,7 +35,7 @@ function startShift() {
         };
         actualDay.push(shiftObject);
       }
-    } 
+    
     monthShift.push(actualDay);
   }
 
